@@ -1,0 +1,1405 @@
+using System;
+					
+public class Program //TERCER EXAMEN PARCIAL VARGAS REYES KEIRY YAMILETH
+{
+	public static void Main()
+	{
+		int eleccion =0, x=0;
+		Program funciones = new Program();
+		
+		while(x<1){
+			x++;
+			Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		    Console.WriteLine("                                                              Menu de problemas                                                       +");
+		    Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		    Console.WriteLine("+ 1 .- cuál de tres números diferentes es el mayor, y cuál es el menor.                                                               +");
+		    Console.WriteLine("+ 2 .- leer 5 números, obtener su promedio, el mayor y el menor de esos números                                                       +");
+		    Console.WriteLine("+ 3 .- elevar un número    X a una potencia n                                                                                         +");
+		    Console.WriteLine("+ 4 .- sumar restar multiplicar y dividir dos números cualquiera.                                                                     +");
+	        Console.WriteLine("+ 5 .- determinar el área o el perímetro de un triángulo ó un cuadrado o un rectángulo o un círculo                                   +");
+	        Console.WriteLine("+ 6 .- determine cuál de tres números diferentes es el mayor y cuál es el menor                                                       +");
+		    Console.WriteLine("+ 7 .- Muestre en pantalla los números del 1 al 100 en orden ascendente                                                               +");
+		    Console.WriteLine("+ 8 .- Muestre los números del 100 al 0 en orden descendente                                                                          +");
+	        Console.WriteLine("+ 9 .- Imprimir la suma de los primero 100 números                                                                                    +");
+		    Console.WriteLine("+ 10 .- Introducir tantas frases como el usuario quiera y contar cuantas fueron.                                                      +");
+		    Console.WriteLine("+ 11 .- Introducir dos números por teclado. Imprimir los números naturales que hayentre ambos números empezando por el más pequeño    +");
+		    Console.WriteLine("+ 12 .- Algoritmo que muestre una lista de todos los números pares que hay entre dos números cualquiera y que nos diga cuantos son.   +");
+		    Console.WriteLine("+ 13 .- Algoritmo que muestre una lista de todos los números impares que hay entre dos números cualquiera.                            +");
+		    Console.WriteLine("+ 14 .- Algoritmo para leer 5 números, obtener su promedio, el mayor y el menor de esos números                                       +");
+		    Console.WriteLine("+ 15 .- Algoritmo “Criba de Eratóstenes”, para saber los números primos que hay entre dos números                                     +");
+		    Console.WriteLine("+ 16 .- Programa que resuelva el problema de la pelea de Pokemon.                                                                     +");
+		    Console.WriteLine("+ 17 .- Desarrollar un programa que permita cargar 5 nombres de personas y sus edades respectivas                                     +");
+		    Console.WriteLine("+ 18 .- Desarrollar un programa que primero nos permita capturar n números, y después nos permita buscar un elemento.                 +");
+		    Console.WriteLine("+ 19 .- Desarrollar un programa que haga lo siguiente: Capturar valores de dos matrices de 3x3                                        +");
+		    Console.WriteLine("+ 20 .- Desarrollar un programa que permita cargar 5 nombres de personas y sus edades respectivas.                                    +");
+		    Console.WriteLine("+ 21 .- Desarrollar un programa que primero nos permita capturar n números, y después nos permita buscar un elemento.                 +");
+		    Console.WriteLine("+ 22 .- Desarrollar un programa que haga lo siguiente: o Capturar valores de dos matrices de 3x3                                      +");
+			Console.WriteLine("+ 23 .- Salir                                                                                                                         +");
+			Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		    Console.WriteLine(" ");
+			//Los problemas se encuentran en orden requerido pero con numeracion diferente
+			Console.WriteLine("Introduzca el numero del problema que desea resolver");
+		    eleccion = Int32.Parse(Console.ReadLine());
+			
+			switch(eleccion)
+			{
+				case 1:
+					Console.Clear();
+					funciones.actividad1();
+					x=0;
+					break;
+				case 2:
+					Console.Clear();
+					funciones.actividad2();
+					x=0;
+					break;
+				case 3:
+					Console.Clear();
+					funciones.actividad3();
+					x=0;
+					break;
+				case 4:
+					Console.Clear();
+					funciones.actividad4();
+					x=0;
+					break;
+				case 5:
+					Console.Clear();
+					funciones.actividad5();
+					x=0;
+					break;
+				case 6:
+					Console.Clear();
+					funciones.actividad6();
+					x=0;
+					break;
+				case 7:
+					Console.Clear();
+					funciones.actividad7();
+					x=0;
+					break;
+				case 8:
+					Console.Clear();
+					funciones.actividad8();
+					x=0;
+					break;
+				case 9:
+					Console.Clear();
+					funciones.actividad9();
+					x=0;
+					break;
+				case 10:
+					Console.Clear();
+					funciones.actividad10();
+					x=0;
+					break;
+				case 11:
+					Console.Clear();
+					funciones.actividad11();
+					x=0;
+					break;
+				case 12:
+					Console.Clear();
+					funciones.actividad12();
+					x=0;
+					break;
+				case 13:
+					Console.Clear();
+					funciones.actividad13();
+					x=0;
+					break;
+				case 14:
+					Console.Clear();
+					funciones.actividad14();
+					x=0;
+					break;
+				case 15:
+					Console.Clear();
+					funciones.actividad15();
+					x=0;
+					break;
+				case 16:
+					Console.Clear();
+					funciones.actividad16();
+					x=0;
+					break;
+				case 17:
+					Console.Clear();
+					funciones.actividad17();
+					x=0;
+					break;
+				case 18:
+					Console.Clear();
+					funciones.actividad18();
+					x=0;
+					break;
+				case 19:
+					Console.Clear();
+					funciones.actividad19();
+					x=0;
+					break;
+				case 20:
+					Console.Clear();
+					funciones.actividad20();
+					x=0;
+					break;
+				case 21:
+					Console.Clear();
+					funciones.actividad21();
+					x=0;
+					break;
+				case 22:
+					Console.Clear();
+					funciones.actividad22();
+					x=0;
+					break;
+				case 23:
+					Console.Clear();
+					Console.WriteLine("se ha terminado el examen");
+					Console.ReadLine();
+					break;
+				default:
+					Console.Clear();
+					Console.WriteLine("El numero que ingreso no es valido intentelo de nuevo");
+					x=0;
+					break;
+			}
+		}
+	}
+	public void actividad1()
+	{
+		//10. Programa que determine cuál de tres números diferentes es el mayor, y cuáles el menor. (Si los números son iguales, enviar mensaje) (Usar IF)
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 1                             +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		int n1, n2, n3;
+		Console.WriteLine("Ingrese el primer numero: ");
+		n1 = Int32.Parse(Console.ReadLine());
+		Console.WriteLine("Ingrese el segundo numero: ");
+		n2 = Int32.Parse(Console.ReadLine());
+		Console.WriteLine("Ingrese el tercer numero: ");
+		n3 = Int32.Parse(Console.ReadLine());
+		if(n1==n2 && n1==n3){
+			Console.WriteLine("Los numeros ingresados son iguales");
+		}else{
+			if(n1>n2 && n1>n3){
+				Console.WriteLine("El numero: "+n1 + " es el mayor");
+				if(n2>n3){
+					Console.WriteLine("El numero: "+n3 + " es el menor");
+				}else{
+					Console.WriteLine("El numero: "+n2 + " es el menor");
+				}
+			}
+			if(n2>n1 && n2>n3){
+				Console.WriteLine("El numero: "+n2 + " es el mayor");
+				if(n1>n3){
+					Console.WriteLine("El numero: "+n3 + " es el menor");
+				}else{
+					Console.WriteLine("El numero: "+n1 + " es el menor");
+				}
+			}
+			if(n3>n1 && n3>n2){
+				Console.WriteLine("El numero: "+n3 + " es el mayor");
+				if(n1>n2){
+					Console.WriteLine("El numero: "+n2 + " es el menor");
+				}else{
+					Console.WriteLine("El numero: "+n1 + " es el menor");
+				}
+			}
+		}
+	}
+	public void actividad2()
+	{
+		//11. Programa para leer 5 números, obtener su promedio, el mayor y el menor de esos números.
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 2                             +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		int m1, m2, m3, m4, m5, m6=0, m7=0;
+		double pro=0;
+		Console.WriteLine("Ingrese cinco numeros: ");
+		m1 = Int32.Parse(Console.ReadLine());
+		m2 = Int32.Parse(Console.ReadLine());
+		m3 = Int32.Parse(Console.ReadLine());
+		m4 = Int32.Parse(Console.ReadLine());
+		m5 = Int32.Parse(Console.ReadLine());
+		pro = (m1+m2+m3+m4+m5)/5;
+		Console.WriteLine("El promedio de los 5 números es de: "+pro);
+		if(m1==m2 && m1==m3 && m1==m4 && m1==m5){
+			Console.WriteLine("Los numeros ingresados son iguales");
+		}else{
+			if(m1>=m2 && m1>=m3 && m1>=m4 && m1>=m5 && m6<1){
+				Console.WriteLine("El numero: "+m1 + " es el mayor");
+				m6++;
+			}
+			if(m2>=m1 && m2>=m3 && m2>=m4 && m2>=m5 && m6<1){
+				Console.WriteLine("El numero: "+m2 + " es el mayor");
+				m6++;
+			}
+			if(m3>=m2 && m3>=m1 && m3>=m4 && m3>=m5 && m6<1){
+				Console.WriteLine("El numero: "+m3 + " es el mayor");
+				m6++;
+			}
+			if(m4>=m2 && m4>=m3 && m4>=m1 && m4>=m5 && m6<1){
+				Console.WriteLine("El numero: "+m4 + " es el mayor");
+				m6++;
+			}
+			if(m5>=m2 && m5>=m3 && m5>=m4 && m5>=m1 && m6<1){
+				Console.WriteLine("El numero: "+m5 + " es el mayor");
+				m6++;
+			}
+			if(m1<=m2 && m1<=m3 && m1<=m4 && m1<=m5 && m7<1){
+				Console.WriteLine("El numero: "+m1 + " es el menor");
+				m7++;
+			}
+			if(m2<=m1 && m2<=m3 && m2<=m4 && m2<=m5 && m7<1){
+				Console.WriteLine("El numero: "+m2 + " es el menor");
+				m7++;
+			}
+			if(m3<m2 && m3<m1 && m3<m4 && m3<m5 && m7<1){
+				Console.WriteLine("El numero: "+m3 + " es el menor");
+				m7++;
+			}
+			if(m4<m2 && m4<m3 && m4<m1 && m4<m5 && m7<1){
+				Console.WriteLine("El numero: "+m4 + " es el menor");
+				m7++;
+			}
+			if(m5<m2 && m5<m3 && m5<m4 && m5<m1 && m7<1){
+				Console.WriteLine("El numero: "+m5 + " es el menor");
+				m7++;
+			}
+		}
+	}
+	public void actividad3()
+	{
+		//12. Programa para elevar un número “X” a una potencia “n”
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 3                             +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		int p1=0,p2=0;
+		Console.WriteLine("Ingrese un números: ");
+		p1 = Int32.Parse(Console.ReadLine());
+		Console.WriteLine("Ingrese la potencia a la que quiere elevar el primer número: ");
+		p2 = Int32.Parse(Console.ReadLine());
+		Console.Write("El numero: "+ p1 +" con exponente " + p2 + " es igual a: ");
+		Console.Write( Math.Pow (p1,p2));
+	}
+	public void actividad4()
+	{
+		/*2. Programa para sumar, restar, multiplicar y dividir dos números cualquiera. 
+		(Mostrar los resultados de la operación seleccionada usando Switch)*/
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 4                             +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine(" ");
+		string operacion = "";
+		int numero1;
+		int numero2;
+		int oper;
+		Console.WriteLine("Realicemos Operaciones");
+		Console.WriteLine("< suma >    < resta >    < multiplicacion >    < division >");
+		Console.WriteLine(" ");
+		Console.WriteLine("Ingrese un número: ");
+		numero1 = Int32.Parse(Console.ReadLine());
+		
+		Console.WriteLine("Ingrese otro número: ");
+		numero2 = Int32.Parse(Console.ReadLine());
+		
+		Console.WriteLine("Escribe la operacion que deseas realizar");
+		operacion = Console.ReadLine();
+        
+        switch(operacion)
+		{
+			case "suma":
+				oper = numero1 + numero2 ;
+                Console.WriteLine("La suma de "+ numero1 +" mas " + numero2 +" es igual a " + oper);
+				break;
+			case "resta":
+                oper = numero1 - numero2 ;
+                Console.WriteLine("La resta de "+ numero1 +" menos " + numero2 +" es igual a " + oper);
+				break;
+		    case "multiplicacion":
+                oper = numero1 * numero2 ;
+                Console.WriteLine("La multiplicacion de "+ numero1 +" por " + numero2 +" es igual a " + oper);
+				break;
+			case "division":
+                oper = numero1 / numero2 ;
+                Console.WriteLine("La division de "+ numero1 +" entre " + numero2 +" es igual a " + oper);
+				break;
+		}
+	}
+	public void actividad5()
+	{
+		/*3. Programa para determinar el área o el perímetro de un triángulo ó un cuadrado, o un rectángulo o un círculo,
+		las medidas y lo que quiere calcular debe ser introducido por el usuario. (Usar Switch)*/
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 5                             +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine(" ");
+		string opcion = "";
+		string poa = "";
+		double pi ; 
+		double oper3, rad ;
+		int oper2;
+		int bas, bas2, bas3, alt;
+		Console.WriteLine("Se calculara el area y perimtro de una figura");
+		Console.WriteLine("< triangulo >    < cuadrado >    < rectangulo >    < circulo >");
+		Console.WriteLine(" ");
+		
+		Console.WriteLine("Escribe el nombre de la figura a trabajar");
+		opcion = Console.ReadLine();
+        Console.WriteLine("Que desea calcular, el area o perimetro?");
+		poa = Console.ReadLine();
+		
+        switch(poa)
+		{
+			case "area":
+				switch(opcion)
+		        {
+			        case "triangulo":
+						Console.WriteLine("Ingrese la base del triangulo: ");
+		                bas = Int32.Parse(Console.ReadLine());
+		
+		                Console.WriteLine("Ingrese la altura del triangulo: ");
+		                alt = Int32.Parse(Console.ReadLine());
+				        oper2 = (bas * alt)/2 ;
+                        Console.WriteLine("El area del triangulo es igual a "+ bas +" por " + alt +" /2 = " + oper2);
+				    break;
+			        case "cuadrado":
+						Console.WriteLine("Ingrese la medida de un lado del cuadrado: ");
+		                bas = Int32.Parse(Console.ReadLine());
+						oper2 = (bas * bas)/2 ;
+                        Console.WriteLine("El area del cuadrado es igual a "+ bas +" por " + bas +" = " + oper2);
+				    break;
+		            case "rectangulo":
+						Console.WriteLine("Ingrese el lado menor del rectangulo: ");
+		                bas = Int32.Parse(Console.ReadLine());
+		
+		                Console.WriteLine("Ingrese el lado mayor del rectangulo: ");
+		                alt = Int32.Parse(Console.ReadLine());
+				        oper2 = bas * alt ;
+                        Console.WriteLine("El area del rectangulo es igual a "+ bas +" por " + alt +" = " + oper2);
+                    
+				    break;
+			        case "circulo":
+						Console.WriteLine("Ingrese el radio del circulo: ");
+		                rad = Int32.Parse(Console.ReadLine());
+						pi = 3.1416;
+						oper3 = (pi * rad) ;
+						oper3 = oper3*oper3;
+                        Console.WriteLine("El area del circulo es igual a " + oper3);
+				    break;
+		        }
+				break;
+			case "perimetro":
+                switch(opcion)
+		        {
+			        case "triangulo":
+						Console.WriteLine("Ingrese la base del triangulo: ");
+		                bas = Int32.Parse(Console.ReadLine());
+						Console.WriteLine("Ingrese la base del triangulo: ");
+		                bas2 = Int32.Parse(Console.ReadLine());
+						Console.WriteLine("Ingrese la base del triangulo: ");
+		                bas3 = Int32.Parse(Console.ReadLine());
+		
+				        oper2 = bas + bas2 + bas3 ;
+                        Console.WriteLine("El perimetro del triangulo es igual a " + oper2);
+				    break;
+			        case "cuadrado":
+						Console.WriteLine("Ingrese la medida de un lado del cuadrado: ");
+		                bas = Int32.Parse(Console.ReadLine());
+						oper2 = bas*4 ;
+                        Console.WriteLine("El perimetro del cuadrado es igual a " + oper2);
+				    break;
+		            case "rectangulo":
+						Console.WriteLine("Ingrese el lado menor del rectangulo: ");
+		                bas = Int32.Parse(Console.ReadLine());
+		
+		                Console.WriteLine("Ingrese el lado mayor del rectangulo: ");
+		                alt = Int32.Parse(Console.ReadLine());
+				        oper2 = bas*2 + alt*2 ;
+                        Console.WriteLine("El perimetro del rectangulo es igual a " + oper2);
+                    
+				    break;
+			        case "circulo":
+						Console.WriteLine("Ingrese el radio del circulo: ");
+		                rad = Int32.Parse(Console.ReadLine());
+						pi = 3.1416;
+						oper3 = 2 * pi * rad ;
+                        Console.WriteLine("El perimetro del circulo es igual a " + oper3);
+				    break;
+		        }
+				break;
+		}
+	}
+	public void actividad6()
+	{
+		//4. Programa que determine cuál de tres números diferentes es el mayor, y cuál es el menor. (Si los números son iguales, enviar mensaje) (Usar Switch)
+		Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 6                             +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		//Ejercicio no realizado en actividades anteriores
+	}
+	public void actividad7()
+	{
+		//1.- Muestre en pantalla los números del 1 al 100 en orden ascendente
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 7                             +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		int x;
+		for(x = 1; x<=100; x++)
+		{
+			Console.WriteLine("Repeticion # " + x);
+		}
+	}
+	public void actividad8()
+	{
+		//2.- Muestre los números del 100 al 0 en orden descendente 
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 8                             +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		int y;
+		for(y = 100; y>=1; y--)
+		{
+			Console.WriteLine("Repeticion # " + y);
+		}
+	}
+	public void actividad9()
+	{
+		//3.- Imprimir la suma de los primero 100 numeros 
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 9                             +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		int n;
+		int sum = 0;
+		for(n = 1; n<=100 ; n++)
+		{
+			sum = sum + n;
+			Console.WriteLine("Suma de : " +(n-1) +" mas "+ (sum-(n-1)) +" es igual a " +sum);
+		}
+		Console.WriteLine("La suma de los primeros 100 números es de: " + sum);
+	}
+	public void actividad10()
+	{
+		//4.- Introducir tantas frases como el usuario quiera y contar cuantas fueron.
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 10                            +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		string frase;
+		int n1 = 0;
+		Console.WriteLine("Ingresa las fraces que guste");
+		Console.WriteLine("Cuando desee terminar solo esbriba la palabra <finalizar>");
+		for(frase = ""; frase != "finalizar"; frase = Console.ReadLine())
+		{
+			n1= n1 + 1;
+		}
+		Console.WriteLine("El numero de frases ingresadas es de: " + (n1-1));
+	}
+	public void actividad11()
+	{
+		//5.- Introducir dos numeros por teclado. Imprimir los numeros naturales que hay entre ambos numeros empezando por el más pequeño, contar cuantos hay y cuantos de ellos son pares. Calcular la suma de los impares.
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 11                            +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		int a,b, e = 0, a1, b1;
+		int c = 1;
+		int d = 1, q1 = 0;
+		int suma = 0, sumapar = 0;
+		int par = 0;
+		int sumaimpar = 0;
+		Console.WriteLine("Ingrese dos números: ");
+		a = Int32.Parse(Console.ReadLine());
+		b = Int32.Parse(Console.ReadLine());
+		
+		for(c = 1  ; (a>=0 && b>=0 && c<=1) ; c++ )
+		{
+			for(d = 1 ; (a<b && d<=1) ; d++)
+			{
+				a = a + 1;
+				b = b - 1;
+				a1 = a ;
+				b1 = b ;
+				for( a = a1 ; (a<=b) ; a++ )
+				{
+					Console.WriteLine("#" + a);
+					for(par = 0 ; (a % 2 == 0 && par < 1) ; par ++ )
+					{
+						sumapar = sumapar + 1;
+					}
+					par = 0 ;
+					for(par = 0 ; (a % 2 == 1 && par < 1) ; par ++ )
+					{
+						sumaimpar = sumaimpar + 1;
+						e = e + a ;
+					}
+					par = 0 ;
+					suma = suma + 1;
+					
+				}
+				Console.WriteLine("Entre ambos numeros ingresados hay un total de " + (suma) + " números");
+				Console.WriteLine("Entre ambos numeros ingresados hay un total de " + (sumapar) + " números pares");
+				Console.WriteLine("Entre ambos numeros ingresados hay un total de " + (sumaimpar) + " números impares");
+				Console.WriteLine("La suma de los números impares es de: " + e);
+				q1 = d ;
+			}
+			for(d = q1 ; (a>b && d<1) ; d ++ )
+			{
+				a = a - 1;
+				b = b + 1;
+				a1 = a ;
+				b1 = b ;
+				for( b = b1 ; (b<=a) ; b ++ )
+				{
+					for(par = 0 ; (b % 2 == 0 && par < 1) ; par ++ )
+					{
+						sumapar = sumapar + 1;
+					}
+					par = 0 ;
+					for(par = 0 ; (b % 2 == 1 && par < 1) ; par ++ )
+					{
+						sumaimpar = sumaimpar + 1;
+						e = e + b ;
+					}
+					par = 0 ;
+					Console.WriteLine("#" + b);
+					suma = suma + 1;
+				}
+				Console.WriteLine("Entre ambos numeros ingresados hay un total de " + (suma) + " números");
+				Console.WriteLine("Entre ambos numeros ingresados hay un total de " + (sumapar) + " números pares");
+				Console.WriteLine("Entre ambos numeros ingresados hay un total de " + (sumaimpar) + " números impares");
+				Console.WriteLine("La suma de los números impares es de: " + e);
+			}
+		}
+		for(c = 1 ; ((a<=0 || b<=0) && c<=1) ; c++ )
+		{
+			Console.WriteLine("El o los numeros ingresados son negativos");	
+		}
+		for(e = 0 ; (a == b && e<1) ; e++ )
+		{
+			Console.WriteLine("Los números ingresados son iguales");
+		}
+	}
+	public void actividad12()
+	{
+		//8. Algoritmo que muestre una lista de todos los números pares que hay entre dos números cualquiera y que nos
+        //diga cuantos son. (Ejemplo: Se leen los números 8 y 17, el resultado del algoritmo debe ser 10,12,14,16, Entre
+        //el 8 y el 17 hay 5 números pares)
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 12                            +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		int g1, g2, g3 = 0, g4 = 0, g5 = 0 ;
+		int g6, g7 ;
+		Console.WriteLine("Ingrese dos números: ");
+		g1 = Int32.Parse(Console.ReadLine());
+		g2 = Int32.Parse(Console.ReadLine());
+		g6 = g1 ;
+		g7 = g2 ;
+		while(g1 < g2 && g3 < 1)
+		{
+			g1 = g1 + 1;
+			g2 = g2 - 1;
+			while(g1 <= g2 )
+			{
+				while(g1 % 2 == 0 && g4 < 1 )
+				{
+					Console.WriteLine("#: " + g1);
+					g4 ++ ;
+					g5 = g5 + 1 ;
+				}
+				g4 = 0 ;
+				g1++;
+			}
+			g3 ++ ;
+			Console.WriteLine("Entre el " + g6 + " y el " + g7 + " hay " + g5 + " números pares.");
+		}
+		while(g2 < g1 && g3 < 1)
+		{
+			g1 = g1 - 1;
+			g2 = g2 + 1;
+			while(g2 <= g1 )
+			{
+				while(g2 % 2 == 0 && g4 < 1 )
+				{
+					Console.WriteLine("#: " + g2);
+					g4 ++ ;
+					g5 = g5 + 1 ;
+				}
+				g4 = 0 ;
+				g2++;
+			}
+			g3 ++ ;
+			Console.WriteLine("Entre el " + g7 + " y el " + g6 + " hay " + g5 + " números pares.");
+		}
+		while(g1 == g2 && g3<1)
+		{
+			Console.WriteLine("Los números ingresados son iguales");
+			g3 ++ ;
+		}
+	}
+	public void actividad13()
+	{
+		//9. Algoritmo que muestre una lista de todos los números impares que hay entre dos números cualquiera. (Ejemplo:
+        //Se leen los números 8 y 17, el resultado del algoritmo debe ser 9,11,13,15, Entre el 8 y el 17 hay 4 números
+        //impares)
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 13                            +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		int h1, h2, h3 = 0, h4 = 0, h5 = 0 ;
+		int h6, h7 ;
+		Console.WriteLine("Ingrese dos números: ");
+		h1 = Int32.Parse(Console.ReadLine());
+		h2 = Int32.Parse(Console.ReadLine());
+		h6 = h1 ;
+		h7 = h2 ;
+		while(h1 < h2 && h3 < 1)
+		{
+			h1 = h1 + 1;
+			h2 = h2 - 1;
+			while(h1 <= h2 )
+			{
+				while(h1 % 2 == 1 && h4 < 1 )
+				{
+					Console.WriteLine("#: " + h1);
+					h4 ++ ;
+					h5 = h5 + 1 ;
+				}
+				h4 = 0 ;
+				h1++;
+			}
+			h3 ++ ;
+			Console.WriteLine("Entre el " + h6 + " y el " + h7 + " hay " + h5 + " números impares.");
+		}
+		while(h2 < h1 && h3 < 1)
+		{
+			h1 = h1 - 1;
+			h2 = h2 + 1;
+			while(h2 <= h1 )
+			{
+				while(h2 % 2 == 1 && h4 < 1 )
+				{
+					Console.WriteLine("#: " + h2);
+					h4 ++ ;
+					h5 = h5 + 1 ;
+				}
+				h4 = 0 ;
+				h2++;
+			}
+			h3 ++ ;
+			Console.WriteLine("Entre el " + h7 + " y el " + h6 + " hay " + h5 + " números impares.");
+		}
+		while(h1 == h2 && h3<1)
+		{
+			Console.WriteLine("Los números ingresados son iguales");
+			h3 ++ ;
+		}
+	}
+	public void actividad14()
+	{
+		//10. Algoritmo para leer 5 números, obtener su promedio, el mayor y el menor de esos números.
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 14                            +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		int c1, c2, c3, c4, c5, promedio;
+		int x1 = 0, x2 = 0;
+		Console.WriteLine("Ingrese cinco números: ");
+		c1 = Int32.Parse(Console.ReadLine());
+		c2 = Int32.Parse(Console.ReadLine());
+		c3 = Int32.Parse(Console.ReadLine());
+		c4 = Int32.Parse(Console.ReadLine());
+		c5 = Int32.Parse(Console.ReadLine());
+		promedio = (c1 + c2 + c3 + c4 + c5 )/5;
+		Console.WriteLine("El promedio de los 5 números ingresados es de:" + promedio);
+		
+		while(c1==c2 && c1==c3 && c1==c4 && c1==c5 && x1<1 && x2<1)
+		{
+			Console.WriteLine("Todos los números ingresados son iguales");
+			x1 ++ ;
+			x2 ++ ;
+		}
+		while((c1>c2 || c1>=c2) && (c1>c3 || c1>=c3) && (c1>c4 || c1>=c4) && (c1>c5 || c1>=c5) && (x1<1))
+		{
+			Console.WriteLine("El número mas alto es el: "+ c1+" que fue el primer numero en ser ingresado");
+			x1 ++ ;
+		}
+		while((c2>c1 || c2>=c1) && (c2>c3 || c2>=c3) && (c2>c4 || c2>=c4) && (c2>c5 || c2>=c5) && (x1<1))
+		{
+			Console.WriteLine("El número mas alto es el: "+ c2+" que fue el segundo numero en ser ingresado");
+			x1 ++ ;
+		}
+		while((c3>c2 || c3>=c2) && (c3>c1 || c3>=c1) && (c3>c4 || c3>=c4) && (c3>c5 || c3>=c5) && (x1<1))
+		{
+			Console.WriteLine("El número mas alto es el: "+ c3+" que fue el tercer numero en ser ingresado");
+			x1 ++ ;
+		}
+		while((c4>c2 || c4>=c2) && (c4>c3 || c4>=c3) && (c4>c1 || c4>=c1) && (c4>c5 || c4>=c5) && (x1<1))
+		{
+			Console.WriteLine("El número mas alto es el: "+ c4+" que fue el cuarto numero en ser ingresado");
+			x1 ++ ;
+		}
+		while((c5>c2 || c5>=c2) && (c5>c3 || c5>=c3) && (c5>c4 || c5>=c4) && (c5>c1 || c5>=c1) && (x1<1))
+		{
+			Console.WriteLine("El número mas alto es el: "+ c5+" que fue el quinto numero en ser ingresado");
+			x1 ++ ;
+		}
+		while((c1<c2 || c1<=c2) && (c1<c3 || c1<=c3) && (c1<c4 || c1<=c4) && (c1<c5 || c1<=c5) && (x2<1))
+		{
+			Console.WriteLine("El número mas pequeño es el: "+ c1+" que fue el primer numero en ser ingresado");
+			x2 ++ ;
+		}
+		while((c2<c1 || c2<=c1) && (c2<c3 || c2<=c3) && (c2<c4 || c2<=c4) && (c2<c5 || c2<=c5) && (x2<1))
+		{
+			Console.WriteLine("El número mas pequeño es el: "+ c2+" que fue el segundo numero en ser ingresado");
+			x2 ++ ;
+		}
+		while((c3<c2 || c3<=c2) && (c3<c1 || c3<=c1) && (c3<c4 || c3<=c4) && (c3<c5 || c3<=c5) && (x2<1))
+		{
+			Console.WriteLine("El número mas pequeño es el: "+ c3+" que fue el tercer numero en ser ingresado");
+			x2 ++ ;
+		}
+		while((c4<c2 || c4<=c2) && (c4<c3 || c4<=c3) && (c4<c1 || c4<=c1) && (c4<c5 || c4<=c5) && (x2<1))
+		{
+			Console.WriteLine("El número mas pequeño es el: "+ c4+" que fue el cuarto numero en ser ingresado");
+			x2 ++ ;
+		}
+		while((c5<c2 || c5<=c2) && (c5<c3 || c5<=c3) && (c5<c4 || c5<=c4) && (c5<c1 || c5<=c1) && (x2<1))
+		{
+			Console.WriteLine("El número mas pequeño es el: "+ c5+" que fue el quinto numero en ser ingresado");
+			x2 ++ ;
+		}
+	}
+	public void actividad15()
+	{
+		//11. Algoritmo “Criba de Eratóstenes”, para saber los números primos que hay entre dos números. (Consulte anexos
+        //en la Tarea 5)
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 15                            +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		int divisible = 0 ;
+		int inicio ;
+		int p1 = 0 , p2 = 0 , p3 = 0;
+		Console.WriteLine("Ingrese un número: ");
+		inicio = Int32.Parse(Console.ReadLine());
+		Console.WriteLine("Ingresa hasta que número quieras que imprima los números primos");
+		int numero_final = int.Parse(Console.ReadLine());
+		while( inicio == numero_final && p2<1)
+		{
+			Console.WriteLine("Los numeros ingresados son iguales");
+			p2 ++ ;
+		}
+		inicio = inicio + 1;
+		numero_final = numero_final - 1;
+		while(inicio < numero_final)
+		{
+			int i = 1;
+			while( i <= inicio)
+			{
+				while(inicio % i == 0 && p1<1)
+				{
+					divisible ++ ;
+					p1 ++;
+				}
+				p1 = 0 ;
+				while(divisible > 2)
+				{
+					break;
+				}
+				p2 = 0 ;
+				i ++ ;
+			}
+			while(divisible == 2 && p3<1)
+			{
+				Console.WriteLine("#" + inicio + " es primo");
+				p3++;
+			}
+			p3 = 0 ;
+			divisible = 0 ;
+			inicio ++ ;
+		}
+		inicio = inicio - 1;
+		numero_final = numero_final + 1;
+		while(numero_final < inicio)
+		{
+			int i = 1;
+			while( i <= numero_final)
+			{
+				while(numero_final % i == 0 && p1<1)
+				{
+					divisible ++ ;
+					p1 ++;
+				}
+				p1 = 0 ;
+				while(divisible > 2)
+				{
+					break;
+				}
+				p2 = 0 ;
+				i ++ ;
+			}
+			while(divisible == 2 && p3<1)
+			{
+				Console.WriteLine("#" + numero_final + " es primo");
+				p3++;
+			}
+			p3 = 0 ;
+			divisible = 0 ;
+			numero_final ++ ;
+		}
+	}
+	public void actividad16()
+	{
+		//12.-Programa que resuelva el problema de la pelea de Pokemon. (Consultar Tareas 3 y 4)
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 16                            +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+	//Ejercicio no realizado en tareas anteriores
+	}
+	public void actividad17()
+	{
+		//1.- Desarrollar un programa que permita cargar 5 nombres de personas y sus edades respectivas.
+		int k1 = 0, k2=0;
+		string opcion = "";
+		int k=0;
+		int[] años = new int[5];
+		string[] nombre = new string[5];
+		Console.WriteLine("==============================================================");
+		Console.WriteLine("========================= PROGRAMA 17 =========================");
+		Console.WriteLine("==============================================================");
+		for(int d=0; d<5; d++){
+			Console.Write("Ingrese el nombre de la persona seleccionada "+ (d+1) + ": ");
+			nombre[d] = Console.ReadLine();
+			Console.Write("Ingrese los años de la persona seleccionada "+ (d+1) + ": ");
+			años[d] = int.Parse(Console.ReadLine());
+		}
+		Console.Clear();
+		while(k<1){
+			k1=0;
+			k++;
+			Console.WriteLine("===========================================================");
+			Console.WriteLine("                        Menú"                               );
+			Console.WriteLine(" ");
+		    Console.WriteLine(" A) Los nombres y edades de las personas mayores de edad en México.");
+		    Console.WriteLine(" B) Los nombres y edades de las personas mayores de edad en Estados Unidos.");
+			Console.WriteLine(" C) Los nombres y edades de las personas menores de edad en México.");
+		    Console.WriteLine(" D) Los nombres y edades de las personas menores de edad en Estados Unidos");
+		    Console.WriteLine(" E) Salir ");
+		    Console.WriteLine(" ");
+		    Console.WriteLine("	Ingresa la letra del inciso que deseas consultar");
+		    Console.WriteLine(" ");
+			opcion = Console.ReadLine();
+			switch(opcion){
+				case "A":
+					Console.Clear();
+					Console.WriteLine("=======================================================================");
+			        Console.WriteLine(" A) Los nombres y edades de las personas mayores de edad en México.");
+			        Console.WriteLine(" ");
+					for(int j=0;j<5 ; j++){
+			            while(años[k1]>=18 && k2<1){
+			                Console.WriteLine("El nombre de la persona " + (k1+1) + " es: "+ nombre[k1]);
+			                Console.WriteLine("La edad de la persona " + (k1+1) + " es: "+ años[k1] + " años");
+				            k2++;
+			            }
+			            k2 = 0;
+			            k1++;
+		            }
+					k = 0;
+					break;
+				case "B":
+					Console.Clear();
+					Console.WriteLine("================================================================================");
+			        Console.WriteLine(" B) Los nombres y edades de las personas mayores de edad en Estados Unidos.");
+			        Console.WriteLine(" ");
+					for(int j=0;j<5 ; j++){
+			            while(años[k1]>=21 && k2<1) {
+			                Console.WriteLine("El nombre de la persona " + (k1+1) + " es: "+ nombre[k1]);
+			                Console.WriteLine("La edad de la persona " + (k1+1) + " es: "+ años[k1] + " años");
+				            k2++;
+			            }
+			            k2 = 0;
+			            k1++;
+		            }
+					k = 0;
+					break;
+				case "C":
+					Console.Clear();
+					Console.WriteLine("=======================================================================");
+			        Console.WriteLine(" C) Los nombres y edades de las personas menores de edad en México.");
+			        Console.WriteLine(" ");
+					for(int j=0;j<5 ; j++){
+			            while(años[k1]<18 && k2<1){
+			                Console.WriteLine("El nombre de la persona " + (k1+1) + " es: "+ nombre[k1]);
+			                Console.WriteLine("La edad de la persona " + (k1+1) + " es: "+ años[k1] + " años");
+				            k2++;
+			            }
+			            k2 = 0;
+			            k1++;
+		            }
+					k = 0;
+					break;
+				case "D":
+					Console.Clear();
+					Console.WriteLine("==============================================================================");
+			        Console.WriteLine(" D) Los nombres y edades de las personas menores de edad en Estados Unidos");
+			        Console.WriteLine(" ");
+					for(int j=0;j<5 ; j++){
+			            while(años[k1]<21 && k2<1){
+			                Console.WriteLine("El nombre de la persona " + (k1+1) + " es: "+ nombre[k1]);
+			                Console.WriteLine("La edad de la persona " + (k1+1) + " es: "+ años[k1] + " años");
+				            k2++;
+			            }
+			            k2 = 0;
+			            k1++;
+		            }
+					k = 0;
+					break;
+				case "E":
+					Console.Clear();
+					Console.WriteLine("Ha salido del problema 1");
+					break;
+
+				default:
+					Console.Clear();
+					Console.WriteLine("La letra que ingreso no es valida");
+					k = 0;
+					break;
+			}
+		}
+		
+	}
+	public void actividad18()
+	{
+		//2.- Desarrollar un programa que primero nos permita capturar n números, y después nos permita buscar un elemento. 
+		//Al final nos muestre como resultado si encontró el número buscado y en qué posición se encuentra.
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 18                            +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		int num = 0;
+		int con = 0;
+		Console.Write("¿Cuántos números desea ingresar?: ");
+		num = int.Parse(Console.ReadLine());
+		int[] crack = new int[num];
+		for(int b = 0; b < num; b++){
+			Console.Write(""+(b+1) + " Ingrese un número: ");
+			crack[b] = int.Parse(Console.ReadLine());
+		}
+		Console.WriteLine("====================================================================");
+		Console.WriteLine("De los " + num + " números, ¿Qué numero desea consultar en este momento?");
+		con = int.Parse(Console.ReadLine());
+		Console.WriteLine("====================================================================");
+		Console.WriteLine("Calificación " + con + " : "+ crack[con-1]);
+	}	
+	public void actividad19()
+	{
+		//3.- Desarrollar un programa que capture valores de dos matrices de 3x3
+		string letra = "";
+		int v=0, v1=0;
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 19                            +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		//Declaracion de matriz/
+		int[,] matriz1 = new int[3,3];
+		int[,] matriz2 = new int[3,3];
+		int[,] res = new int[3,3];
+		//Guardar informacion de la matriz 1,2,3/
+		Console.WriteLine("Matriz 1");
+		for(int fila = 0; fila  <= 2; fila++){
+			for(int columna = 0; columna <= 2; columna++){
+				//Pasar el valor a nuestra matriz/
+				Console.Write("["+fila+","+columna+"]" + "Ingrese un número entero: ");
+				matriz1[fila,columna] = int.Parse(Console.ReadLine());
+			}
+		}
+		Console.WriteLine("Matriz 2");
+		for(int fila = 0; fila  <= 2; fila++){
+			for(int columna = 0; columna <= 2; columna++){
+				//Pasar el valor a nuestra matriz/
+				Console.Write("["+fila+","+columna+"]" + "Ingrese un número entero: ");
+				matriz2[fila,columna] = int.Parse(Console.ReadLine());
+			}
+		}
+		Console.Clear();
+		while(v<1){
+			v++;
+			Console.WriteLine("            MENU");
+		    Console.WriteLine("a) Mostrar el resultado de la suma de las matrices");
+		    Console.WriteLine("b) Mostrar el resultado de la resta de las matrices");
+		    Console.WriteLine("c) Mostrar el resultado de la multiplicación de las matrices");
+		    Console.WriteLine("d) Salir");
+		    Console.WriteLine(" ");
+		    Console.WriteLine("Ingresee la letra del inciso que desea consultar");
+		    Console.WriteLine(" ");
+	        letra = Console.ReadLine();
+			switch(letra){
+				case "a":
+					Console.Clear();
+					Console.WriteLine("==================================");
+		            Console.WriteLine("SUMA DE LAS MATRICES");
+		            Console.WriteLine("==================================");
+					for(int i=0 ; i<3 ; i++){
+			            for(int j=0 ; j<3; j++){
+				            res[i,j] = matriz1[i,j]+ matriz2[i,j];
+			            }
+		            }
+					v=0;
+					break;
+				case "b":
+					Console.Clear();
+					Console.WriteLine("==================================");
+		            Console.WriteLine("RESTA DE LAS MATRICES");
+		            Console.WriteLine("==================================");
+					Console.WriteLine("tu ");
+					for(int i=0 ; i<3 ; i++){
+			            for(int j=0 ; j<3; j++){
+				            res[i,j] = matriz1[i,j] - matriz2[i,j];
+			            }
+		            }
+					v=0;
+					break;
+				case "c":
+					Console.Clear();
+					Console.WriteLine("==================================");
+		            Console.WriteLine("MULTIPLICACIÓN DE LAS MATRICES");
+		            Console.WriteLine("==================================");
+					Console.WriteLine("el ");
+					for(int i=0 ; i<3 ; i++){
+			            for(int j=0 ; j<3; j++){
+				            res[i,j] = matriz1[i,j] * matriz2[i,j];
+			            }
+		            }
+					v=0;
+					break;
+				case "d":
+					Console.Clear();
+					Console.WriteLine("Ha salido del problema 3");
+					 v1=2;
+					break;
+				default:
+					Console.Clear();
+					Console.WriteLine("La letra que ingreso no es valida");
+					v=0; v1=2;
+					break;
+			}
+			//RESULTADOS
+			for(int fila = 0; fila  <= 2 && v1<1; fila++){
+			    for(int columna = 0; columna <= 2; columna++){
+				//Debe de imprimir los valores de la matriz
+				    Console.Write(res[fila,columna]+" | ");
+			    }
+			    Console.WriteLine("");
+			    Console.WriteLine("------------");
+		    }v1=0;
+		}
+	}
+	private int numeros = 0; int consulta = 0;
+	private int a1=0; int a2=0; int a3=0; int a4=0; int a5=0;
+	private string n1=""; string n2=""; string n3=""; string n4=""; string n5="";
+	public void actividad20(){
+		//variables
+		int a=0;
+		string opcion = "";
+		Program funciones = new Program();//crea el objeto para poder trabajar
+		funciones.CapturarDatos();
+		Console.Clear();
+		while(a<1){
+			a++;
+			Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 20                            +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+			Console.WriteLine("                                  Menú");
+			Console.WriteLine(" ");
+		    Console.WriteLine(" a) Los nombres y las edades de las personas mayores de edad en México.");
+		    Console.WriteLine(" b) Los nombres y las edades de las personas mayores de edad en Estados Unidos.");
+			Console.WriteLine(" c) Los nombres y las edades de las personas menores de edad en México.");
+		    Console.WriteLine(" d) Los nombres y las edades de las personas menores de edad en Estados Unidos");
+		    Console.WriteLine(" e) Salir ");
+		    Console.WriteLine(" ");
+		    Console.WriteLine("Escribe la letra (en minuscula) del inciso que deseas consultar");
+		    Console.WriteLine(" ");
+			opcion = Console.ReadLine();
+			switch(opcion){
+				case "a":
+					Console.Clear();
+					funciones.MayorMexico();
+					a=0;
+					break;
+				case "b":
+					Console.Clear();
+					funciones.MayorEstadosUnidos();
+					a=0;
+					break;
+				case "c":
+					Console.Clear();
+					funciones.MenorMexico();
+					a=0;
+					break;
+				case "d":
+					Console.Clear();
+					funciones.MenorEstadosUnidos();
+					a=0;
+					break;
+				case "e":
+					Console.Clear();
+					Console.WriteLine("Has salido del problema 1");
+					break;
+				default:
+					Console.Clear();
+					Console.WriteLine("La letra que ingreso no es valida");
+					a = 0;
+					break;
+			}
+		}
+	}
+	public void CapturarDatos(){
+		Console.Write("Ingrese el nombre de la persona: ");
+		n1 = Console.ReadLine();
+		Console.Write("Ingrese los años de la persona: ");
+		a1 = int.Parse(Console.ReadLine());
+		Console.Write("Ingrese el nombre de la persona: ");
+		n2 = Console.ReadLine();
+		Console.Write("Ingrese los años de la persona: ");
+		a2 = int.Parse(Console.ReadLine());
+		Console.Write("Ingrese el nombre de la persona: ");
+		n3 = Console.ReadLine();
+		Console.Write("Ingrese los años de la persona: ");
+		a3 = int.Parse(Console.ReadLine());
+		Console.Write("Ingrese el nombre de la persona: ");
+		n4 = Console.ReadLine();
+		Console.Write("Ingrese los años de la persona: ");
+		a4 = int.Parse(Console.ReadLine());
+		Console.Write("Ingrese el nombre de la persona: ");
+		n5 = Console.ReadLine();
+		Console.Write("Ingrese los años de la persona: ");
+		a5 = int.Parse(Console.ReadLine());
+	}
+	public void MayorMexico(){
+		Console.WriteLine("================================================================================");
+	    Console.WriteLine(" a) Los nombres y las edades de las personas mayores de edad en México.");
+	    Console.WriteLine(" ");
+		if(a1>18) {
+			Console.WriteLine("1.-El nombre de la persona es: "+ n1);
+			Console.WriteLine("1.-La edad de la persona es: " + a1);
+		}if(a2>18) {
+			Console.WriteLine("2.-El nombre de la persona es: "+ n2);
+			Console.WriteLine("2.-La edad de la persona es: " + a2);
+		}if(a3>18) {
+			Console.WriteLine("3.-El nombre de la persona es: "+ n3);
+			Console.WriteLine("3.-La edad de la persona es: " + a3);
+		}if(a4>18) {
+			Console.WriteLine("4.-El nombre de la persona es: "+ n4);
+			Console.WriteLine("4.-La edad de la persona es: " + a4);
+		}if(a5>18) {
+			Console.WriteLine("5.-El nombre de la persona es: "+ n5);
+			Console.WriteLine("5.-La edad de la persona es: " + a5);
+		}
+		
+	}
+	public void MayorEstadosUnidos(){
+		Console.WriteLine("================================================================================");
+	    Console.WriteLine(" b) Los nombres y las edades de las personas mayores de edad en Estados Unidos.");
+	    Console.WriteLine(" ");
+		if(a1>21) {
+			Console.WriteLine("1.-El nombre de la persona es: "+ n1);
+			Console.WriteLine("1.-La edad de la persona es: " + a1);
+		}if(a2>21) {
+			Console.WriteLine("2.-El nombre de la persona es: "+ n2);
+			Console.WriteLine("2.-La edad de la persona es: " + a2);
+		}if(a3>21) {
+			Console.WriteLine("3.-El nombre de la persona es: "+ n3);
+			Console.WriteLine("3.-La edad de la persona es: " + a3);
+		}if(a4>21) {
+			Console.WriteLine("4.-El nombre de la persona es: "+ n4);
+			Console.WriteLine("4.-La edad de la persona es: " + a4);
+		}if(a5>21) {
+			Console.WriteLine("5.-El nombre de la persona es: "+ n5);
+			Console.WriteLine("5.-La edad de la persona es: " + a5);
+		}
+	}
+	public void MenorMexico(){
+		Console.WriteLine("================================================================================");
+	    Console.WriteLine(" c) Los nombres y las edades de las personas menores de edad en México.");
+	    Console.WriteLine(" ");
+		if(a1<18) {
+			Console.WriteLine("1.-El nombre de la persona es: "+ n1);
+			Console.WriteLine("1.-La edad de la persona es: " + a1);
+		}if(a2<18) {
+			Console.WriteLine("2.-El nombre de la persona es: "+ n2);
+			Console.WriteLine("2.-La edad de la persona es: " + a2);
+		}if(a3<18) {
+			Console.WriteLine("3.-El nombre de la persona es: "+ n3);
+			Console.WriteLine("3.-La edad de la persona es: " + a3);
+		}if(a4<18) {
+			Console.WriteLine("4.-El nombre de la persona es: "+ n4);
+			Console.WriteLine("4.-La edad de la persona es: " + a4);
+		}if(a5<18) {
+			Console.WriteLine("5.-El nombre de la persona es: "+ n5);
+			Console.WriteLine("5.-La edad de la persona es: " + a5);
+		}
+	}
+	public void MenorEstadosUnidos(){
+		Console.WriteLine("================================================================================");
+		Console.WriteLine(" d) Los nombres y las edades de las personas menores de edad en Estados Unidos");
+		Console.WriteLine(" ");
+		if(a1<21) {
+			Console.WriteLine("1.-El nombre de la persona es: "+ n1);
+			Console.WriteLine("1.-La edad de la persona es: " + a1);
+		}if(a2<21) {
+			Console.WriteLine("2.-El nombre de la persona es: "+ n2);
+			Console.WriteLine("2.-La edad de la persona es: " + a2);
+		}if(a3<21) {
+			Console.WriteLine("3.-El nombre de la persona es: "+ n3);
+			Console.WriteLine("3.-La edad de la persona es: " + a3);
+		}if(a4<21) {
+			Console.WriteLine("4.-El nombre de la persona es: "+ n4);
+			Console.WriteLine("4.-La edad de la persona es: " + a4);
+		}if(a5<21) {
+			Console.WriteLine("5.-El nombre de la persona es: "+ n5);
+			Console.WriteLine("5.-La edad de la persona es: " + a5);
+		}
+	}
+	public void actividad21(){
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 21                            +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.Write("Cuántos números quieres ingresar: ");
+		numeros = int.Parse(Console.ReadLine());
+		int[] crack = new int[numeros];
+		for(int b = 0; b < numeros; b++)
+		{
+			Console.Write(""+(b+1) + " Ingrese un números: ");
+			crack[b] = int.Parse(Console.ReadLine());
+		}
+		Console.WriteLine("====================================================================");
+		Console.WriteLine("De los " + numeros + " números ingresados, ¿Qué numero deseas consultar?");
+		consulta = int.Parse(Console.ReadLine());
+		Console.WriteLine("====================================================================");
+		Console.WriteLine("La posicion " + consulta + " tiene un valor de: " + crack[consulta-1]);
+	}
+	public void actividad22(){
+		//Variables
+		string letra = "";
+		int c=0, c1=0;
+		Program funciones = new Program();
+		int[,] matriz1 = new int[3,3];
+		int[,] matriz2 = new int[3,3];
+		int[,] res = new int[3,3];
+		funciones.rellenarMatriz1(matriz1);
+		funciones.rellenarMatriz2(matriz2);
+		Console.Clear();
+		while(c<1){
+			Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		Console.WriteLine("+                             PROGRAMA 22                            +");
+		Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+			c++;
+			Console.WriteLine("            MENU");
+		    Console.WriteLine("a) Mostrar el resultado de la suma de las matrices");
+		    Console.WriteLine("b) Mostrar el resultado de la resta de las matrices");
+		    Console.WriteLine("c) Mostrar el resultado de la multiplicación de las matrices");
+		    Console.WriteLine("d) Salir");
+		    Console.WriteLine(" ");
+		    Console.WriteLine("Escribe la letra (en minuscula) del inciso que deseas consultar");
+		    Console.WriteLine(" ");
+	        letra = Console.ReadLine();
+			switch(letra){
+				case "a":
+					Console.Clear();
+					funciones.operaciones1(matriz1,matriz2,res);
+					c=0;
+					break;
+				case "b":
+					Console.Clear();
+					funciones.operaciones2(matriz1,matriz2,res);
+					c=0;
+					break;
+				case "c":
+					Console.Clear();
+					funciones.operaciones3(matriz1,matriz2,res);
+					c=0;
+					break;
+				case "d":
+					Console.Clear();
+					Console.WriteLine("Has salido del problema 3");
+					 c1=2;
+					break;
+				default:
+					Console.Clear();
+					Console.WriteLine("La letra que ingresaste no es valida");
+					c=0; c1=2;
+					break;
+			}
+			while(c1<1)
+			{
+				c1++;
+				mostrarMatriz(res);
+			}
+			c1=0;
+			Console.WriteLine("");
+		}
+	}
+	public void rellenarMatriz1(int[,]matriz1)
+	{
+		Console.WriteLine("               Matriz 1");
+		for(int fila = 0; fila  <= 2; fila++){
+			for(int columna = 0; columna <= 2; columna++){
+				//Pasar el valor a nuestra matriz/
+				Console.Write("["+fila+","+columna+"]" + "Ingrese un número entero: ");
+				matriz1[fila,columna] = int.Parse(Console.ReadLine());
+			}
+		}
+	}
+	public void rellenarMatriz2(int[,] matriz2)
+	{
+		Console.WriteLine("               Matriz 2");
+		for(int fila = 0; fila  <= 2; fila++){
+			for(int columna = 0; columna <= 2; columna++){
+				//Pasar el valor a nuestra matriz/
+				Console.Write("["+fila+","+columna+"]" + "Ingrese un número entero: ");
+				matriz2[fila,columna] = int.Parse(Console.ReadLine());
+			}
+		}
+    }
+	public void operaciones1(int[,]matriz1, int[,]matriz2,int[,] res)
+	{
+		Console.WriteLine("");
+		Console.WriteLine("==================================");
+		Console.WriteLine("SUMA DE LAS MATRICES");
+		Console.WriteLine("==================================");
+		for(int i=0 ; i<3 ; i++){
+	        for(int j=0 ; j<3; j++){
+		        res[i,j] = matriz1[i,j]+ matriz2[i,j];
+		    }
+		}
+	}
+	public void operaciones2(int[,]matriz1, int[,]matriz2,int[,] res)
+	{
+		Console.WriteLine("");
+		Console.WriteLine("==================================");
+		Console.WriteLine("RESTA DE LAS MATRICES");
+		Console.WriteLine("==================================");
+		for(int i=0 ; i<3 ; i++){
+	        for(int j=0 ; j<3; j++){
+		        res[i,j] = matriz1[i,j]- matriz2[i,j];
+		    }
+		}
+	}
+	public void operaciones3(int[,]matriz1, int[,]matriz2,int[,] res)
+	{
+		Console.WriteLine("");
+		Console.WriteLine("==================================");
+		Console.WriteLine("MULTIPLICACIÓN DE LAS MATRICES");
+		Console.WriteLine("==================================");
+		for(int i=0 ; i<3 ; i++){
+	        for(int j=0 ; j<3; j++){
+		        res[i,j] = matriz1[i,j] * matriz2[i,j];
+		    }
+		}
+	}
+	public static void mostrarMatriz(int[,]res)
+	{
+		for(int fila = 0; fila  <= 2 ; fila++){
+			    for(int columna = 0; columna <= 2; columna++){
+				//Debe de imprimir los valores de la matriz
+				    Console.Write(res[fila,columna]+" | ");
+			    }
+			    Console.WriteLine("");
+			    Console.WriteLine("------------");
+		    }
+	}
+}
